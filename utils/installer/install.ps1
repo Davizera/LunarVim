@@ -121,7 +121,7 @@ function check_system_dep($dep) {
 function check_system_deps() {
     check_system_dep "git"
     check_system_dep "nvim"
-    check_system_dep "make"
+    check_system_dep "cmake"
 }
 
 function install_nodejs_deps() {
